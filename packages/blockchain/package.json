@@ -1,0 +1,32 @@
+{
+  "name": "@orbit/blockchain",
+  "version": "0.1.0",
+  "description": "Blockchain Orchestration Layer for O.R.B.I.T Framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@orbit/core": "^0.1.0",
+    "ethers": "^6.11.0",
+    "web3": "^4.5.0",
+    "@uniswap/sdk-core": "^4.0.9",
+    "@aave/core-v3": "^1.18.0",
+    "curve-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "@types/jest": "^29.5.14",
+    "typescript": "^5.7.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metros-org/orbit-framework.git",
+    "directory": "packages/blockchain"
+  }
+}

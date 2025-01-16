@@ -1,0 +1,31 @@
+{
+  "name": "@orbit/context",
+  "version": "0.1.0",
+  "description": "Responsive Context Handler for O.R.B.I.T Framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@orbit/core": "^0.1.0",
+    "ioredis": "^5.3.2",
+    "node-cache": "^5.1.2",
+    "rxjs": "^7.8.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "@types/jest": "^29.5.14",
+    "typescript": "^5.7.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metros-org/orbit-framework.git",
+    "directory": "packages/context"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "@orbit/tools",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@aws-sdk/client-bedrock-runtime": "^3.726.1",
+        "viem": "^2.22.8"
+    },
+    "peerDependencies": {
+        "@orbit/core": "^0.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/metros-org/orbit-framework.git",
+        "directory": "packages/tools"
+    }
+}
